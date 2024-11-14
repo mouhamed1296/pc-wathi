@@ -1,0 +1,10 @@
+{
+    "user": "Mamadou Sarr",
+    "serialNumber": "123456789",
+    "pcModel": "HP",
+    "pcBrand": "HP",
+    "date_received": "2021-09-01",
+    "date_returned": "2021-09-30",
+    "status": "Returned", 
+    "comment": "The PC is working fine"
+}
