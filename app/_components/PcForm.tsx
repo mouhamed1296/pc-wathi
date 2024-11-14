@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import managePc from "../_helpers/managePc";
 
 const PcForm = () => {
@@ -16,7 +16,7 @@ const PcForm = () => {
     comment: "",
   });
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };

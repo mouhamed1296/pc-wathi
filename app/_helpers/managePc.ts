@@ -1,4 +1,6 @@
-const managePc = async (form: any) => {
+import { PCType } from "./PCType";
+
+const managePc = async (form: PCType) => {
     try {
         const res = await fetch("/api/pcs", {
           method: "POST",
